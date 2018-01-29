@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+      <title>While</title>
+    </head>
+    <body>
+        <script>
+            var daysUntilMyBirthday = 60;
+            var message_happy = "Almost there :)";
+            var message_sad = "Why is it so far away."
+            var message_excited ="EXCITED. EXCITED."
+            var x = 10;
+                while(daysUntilMyBirthday > 1){
+                    daysUntilMyBirthday = daysUntilMyBirthday -1;
+                    if(daysUntilMyBirthday > 30){
+                    console.log(daysUntilMyBirthday,"days until my birthday.", message_sad);
+                    }else if(daysUntilMyBirthday < 6){
+                    console.log(daysUntilMyBirthday,"days until my birthday.", message_excited);
+                    }else{
+                    console.log(daysUntilMyBirthday,"days until my birthday.", message_happy);
+                    }
+                } 
+                while(x > 0){
+                console.log("IT'S TIME ITS MY BIRTHDAY!");
+                x = x - 1;
+                }
+        </script>
+    </body>
+    </html>
